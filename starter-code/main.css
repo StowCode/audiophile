@@ -22,12 +22,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .nav-wrapper {
     display: flex;
     align-items: center;
-    width: 70vw;
+    width: 80vw;
     height: 95px;
     justify-content: space-between;
 }
@@ -99,9 +100,8 @@ h6 {
 
 /* Category Tiles */
 .preview-tiles {
-    margin-top: 50px;
     display: flex;
-    height: 575px;
+    height: 500px;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -170,7 +170,7 @@ h5 {
 
 .banner-speaker {
     height: 450px;
-    z-index: 10;
+    z-index: 1;
     transform: translatey(10px);
 }
 
@@ -206,7 +206,7 @@ h5 {
     display: flex;
     height: 320px;
     width: 80vw;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -236,6 +236,111 @@ h3 {
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 30px;
+}
+
+/* Split Banner */
+.split-banner {
+    width: 80vw;
+    height: 320px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.split-side-1 {
+    height: 320px;
+    width: 39vw;
+    display: block;
+    border-radius: 10px;
+}
+
+.split-side-2 {
+    height: 320px;
+    width: 39vw;
+    background-color: var(--gray);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Best Gear Banner */
+.best-gear-banner {
+    width: 80vw;
+    height: 588px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.best-gear-info {
+    width: 445px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    color: var(--orange);
+}
+
+.best-gear-picture {
+    width: 40vw;
+    max-width: 540px;
+    height: auto;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 100px;
+    height: 365px;
+    background-color: black;
+}
+
+.footer-sub {
+    width: 80vw;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+.footer-line {
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: var(--orange);
+    display: block;
+    margin-left: 10vw;
+}
+
+.about-social {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-sub p {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    width: 540px;
+    filter: brightness(.5);
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin: 0 10px;
 }
 
 
