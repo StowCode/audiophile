@@ -1,0 +1,98 @@
+:root {
+    --orange: #d87d4a;
+    --charcoal: #101010;
+    --gray: #f1f1f1;
+    --light-gray: #fafafa;
+    --peach: #FBAF85;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+header {
+    width: 100vw;
+    height: 95px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    height: 95px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+nav {
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+
+/* HERO */
+.hero {
+    height: 729px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero-info {
+    margin-left: 15vw;
+    color: white;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overline {
+    color: rgba(255,255,255,.4);
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+}
+
+.button1 {
+    width: 160px;
+    height: 48px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+
