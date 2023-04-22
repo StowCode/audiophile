@@ -69,12 +69,14 @@ nav {
 }
 
 h1 {
+    color: white;
     font-size: 56px;
     line-height: 58px;
     letter-spacing: 2px;
 }
 
 h6 {
+    color: white;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 1.3px;
@@ -99,6 +101,7 @@ h6 {
 .preview-tiles {
     margin-top: 50px;
     display: flex;
+    height: 575px;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -151,8 +154,91 @@ h5 {
 
 /* Banner 1 */
 .banner-1 {
-    height: 500px;
+    height: 560px;
+    width: 80vw;
+    display: block;
+    background-color: var(--orange);
+    margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
+
+.banner-speaker {
+    height: 450px;
+    z-index: 10;
+    transform: translatey(10px);
+}
+
+.banner-info {
+    width: 350px;
+    height: 425px;
+}
+
+.sub-title {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    filter: brightness(.9);
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.button2 {
+    width: 160px;
+    height: 48px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Banner2 */
+.banner2 {
+    display: flex;
+    height: 320px;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.banner2-info {
+    margin-left: 100px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 1.5px;
+}
+
+.button4 {
+    width: 160px;
+    height: 48px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+
 
 
 
