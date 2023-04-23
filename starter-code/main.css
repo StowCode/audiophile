@@ -84,7 +84,8 @@ nav a:active {
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 10px;
-    filter: brightness(.5);
+    filter: brightness(1);
+    color: var(--orange);
 }
 
 h1 {
