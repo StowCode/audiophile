@@ -411,6 +411,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     right: 10vw;
     top: 125px;
 }
@@ -420,7 +421,6 @@ footer {
     align-items: center;
     width: 90%;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .cart-header h3 {
@@ -434,7 +434,6 @@ footer {
 
 .checkout-button {
     width: 90%;
-    margin: 0 auto;
     margin-bottom: 25px;
 }
 
