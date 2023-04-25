@@ -26,7 +26,15 @@
       </nav>
       <image class='cart-icon' src="assets/shared/desktop/icon-cart.svg"/> 
     </div>
+
   </header>
+
+  <!-- POPUP CART -->
+  <div id="popup-cart">
+    <div class="cart-window">
+
+    </div>
+  </div>
   
   <section 
     class="hero"
@@ -143,3 +151,21 @@
 
 </body>
 </html>
+
+<script>
+  const cartIcon = document.querySelector('.cart-icon');
+  const popupCart = document.getElementById('popup-cart');
+  let cartShown = false;
+
+  function cartToggle() {
+    if (!cartShown) {
+      popupCart.style.display = 'block';
+      cartShown = true;
+    } else {
+      popupCart.style.display = 'none';
+      cartShown = false;
+    }
+  }
+  cartIcon.addEventListener("click", cartToggle)
+
+</script>
