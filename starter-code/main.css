@@ -64,8 +64,9 @@ nav a:active {
 /* HERO */
 .hero {
     height: 729px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
 }
@@ -403,7 +404,38 @@ footer {
 }
 
 .cart-window {
+    position: fixed;
+    height: 400px;
+    width: 375px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 10vw;
+    top: 125px;
+}
 
+.cart-header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.cart-header h3 {
+    font-size: 18px;
+}
+
+.cart-header p {
+    font-size: 15px;
+    filter: opacity(.5);
+}
+
+.checkout-button {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 
