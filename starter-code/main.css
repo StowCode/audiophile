@@ -437,6 +437,30 @@ footer {
     margin-bottom: 25px;
 }
 
+/* Cart Item Buttons */
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item input {
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.plus-minus {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.plus-minus:hover {
+    cursor: pointer;
+}
+
 
 
 
